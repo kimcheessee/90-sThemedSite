@@ -1,0 +1,63 @@
+html {
+    background-image: url(images/GPE6WXC.jpg);
+}
+
+.header, .footer {
+    border-style:dashed;
+    border-width: 10px 20px;
+    background-color: darkolivegreen;
+    font-family: 'ZCOOL KuaiLe', cursive;
+    font-size: 200%;
+    text-align: center;
+    text-shadow: 2px 4px palegreen;
+}
+
+
+/*h1 {
+    font-family: 'ZCOOL KuaiLe', cursive;
+}*/
+
+h3, .vibeheader {
+    font-family: 'Permanent Marker', cursive;
+    color:green;
+}
+
+.soheader, .h2bs {
+    font-family: 'Permanent Marker', cursive;
+}
+
+.h2bs {
+    font-size: 150%;
+}
+
+p, ol, ul, h4 {
+    font-family: 'Share Tech Mono', monospace; 
+}
+
+
+/*LAYOUT*/
+main {
+    column-count: 2;
+    column-width: 400px; /*tells the browser how many pixels to show*/
+    margin-top: 10px;
+    margin-left: 100px;
+}
+
+/* font-family: 'Permanent Marker', cursive;
+font-family: 'Share Tech Mono', monospace; */
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color:yellow;
+}
+
+a:hover {
+    color:seagreen;
+}
+
+a:active {
+    color:yellowgreen;
+}
